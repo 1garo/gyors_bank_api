@@ -6,4 +6,10 @@ defmodule BankApiWeb.UserController do
     |> put_status(:created)
     |> render("user.json", %{user: user})
   end
+
+  def get_user(conn, %{}) do 
+    conn 
+    |> put_status(:ok)
+    |> render("user.json", %{info: %{data: "alexandre"}})
+  end
 end
