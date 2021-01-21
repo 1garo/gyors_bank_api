@@ -1,4 +1,4 @@
-# Gyors Group API
+# Gyors Bank API
 
 To start your Phoenix server:
 
